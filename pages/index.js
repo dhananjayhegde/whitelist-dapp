@@ -85,7 +85,7 @@ export default function Home() {
       );
 
       // numOfAddressesWhitelisted is public attribute and can accessed just like a function
-      const _numberOfWhitelisted = await whitelistContract.numOfAddressesWhitelisted();
+      const _numberOfWhitelisted = await whitelistContract.numAddressesWhitelisted();
       setNumberOfWhitelisted(_numberOfWhitelisted);
     } catch (error) {
       console.error(error);

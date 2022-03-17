@@ -6,7 +6,7 @@ export const abi = [
         "inputs": [
             {
                 "internalType": "uint8",
-                "name": "_maxWhitelistedAddress",
+                "name": "_maxWhitelistedAddresses",
                 "type": "uint8"
             }
         ],
@@ -35,7 +35,7 @@ export const abi = [
     },
     {
         "inputs": [],
-        "name": "numOfAddressesWhitelisted",
+        "name": "numAddressesWhitelisted",
         "outputs": [
             {
                 "internalType": "uint8",
